@@ -11,8 +11,8 @@ const styles = {
     minHeight: "7vw"
   },
   "@keyframes moveForever": {
-    from: { transform: "translate3d(-90px, 0, 0)" },
-    to: { transform: "translate3d(85px, 0, 0)" }
+    from: { transform: "translate3d(0, 0, 0)" },
+    to: { transform: "translate3d(0, 0, 0)" }
   },
   parallax: {
     "& > use": {
@@ -22,9 +22,7 @@ const styles = {
   }
 };
 
-/**
- *  https://codepen.io/csspoints/pen/WNeOEqd
- */
+
 function WaveBorder(props) {
   const id = String(Math.random());
   const {

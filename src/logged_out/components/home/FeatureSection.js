@@ -18,7 +18,7 @@ const iconSize = 30;
 const features = [
   {
     color: "#00C853",
-    headline: "Feature 1",
+    headline: "",
     text:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
     icon: <BuildIcon style={{ fontSize: iconSize }} />,
@@ -105,7 +105,7 @@ function FeatureSection(props) {
     <div style={{ backgroundColor: "#FFFFFF" }}>
       <div className="container-fluid lg-p-top">
         <Typography variant="h3" align="center" className="lg-mg-bottom">
-          Features
+          All Competitions
         </Typography>
         <div className="container-fluid">
           <Grid container spacing={calculateSpacing(width)}>

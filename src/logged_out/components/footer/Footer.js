@@ -78,11 +78,11 @@ const styles = theme => ({
 const infos = [
   {
     icon: <PhoneIcon />,
-    description: "+1 555 123456"
+    description: "+91 XXXXXXXXX"
   },
   {
     icon: <MailIcon />,
-    description: "support@company.com"
+    description: "competition@cctech.co.in"
   }
 ];
 
@@ -101,7 +101,7 @@ const socialIcons = [
       </svg>
     ),
     label: "Github",
-    href: "https://github.com/dunky11/react-saas-template"
+    href: "https://github.com/"
   },
   {
     icon: (
@@ -226,8 +226,7 @@ function Footer(props) {
               About the Company
             </Typography>
             <Typography style={{ color: "#8f9296" }} paragraph>
-              Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce
-              euismod convallis velit, eu auctor lacus vehicula sit amet.
+              CCTech offers a cloud-based computational fluid dynamics (CFD) simulation platform, called simulationHub, as well as 3D app/plug-in consulting services.
             </Typography>
             <Box display="flex">
               {socialIcons.map((socialIcon, index) => (

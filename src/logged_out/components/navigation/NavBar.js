@@ -8,6 +8,7 @@ import {
   Button,
   Hidden,
   IconButton,
+
   withStyles
 } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
@@ -56,10 +57,15 @@ function NavBar(props) {
       icon: <HomeIcon className="text-white" />
     },
     {
-      link: "/blog",
-      name: "Blog",
+      link: "/about",
+      name: "About",
       icon: <BookIcon className="text-white" />
     },
+    // {
+    //   link: "/blog",
+    //   name: "Blog",
+    //   icon: <BookIcon className="text-white" />
+    // },
     {
       name: "Register",
       onClick: openRegisterDialog,
@@ -82,7 +88,7 @@ function NavBar(props) {
               display="inline"
               color="primary"
             >
-              Wa
+              CC
             </Typography>
             <Typography
               variant="h4"
@@ -90,7 +96,7 @@ function NavBar(props) {
               display="inline"
               color="secondary"
             >
-              Ver
+              Tech
             </Typography>
           </div>
           <div>
